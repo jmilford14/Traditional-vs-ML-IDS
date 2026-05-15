@@ -466,7 +466,7 @@ def plot_feature_importance(rf_model, feature_names: list, output_path: str):
 from pathlib import Path
 
 def main():
-    OUT = Path('outputs')
+    OUT = Path('outputs_rt_iot2022')
     OUT.mkdir(parents=True, exist_ok=True)
 
     print("\n" + "="*60)

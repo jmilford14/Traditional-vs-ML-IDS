@@ -1,0 +1,54 @@
+[
+  {
+    "model": "Rule-Based IDS",
+    "accuracy": 0.693,
+    "precision": 0.7139,
+    "recall": 0.693,
+    "f1": 0.6605,
+    "f1_per_class": {
+      "Normal": 0.7802,
+      "DoS": 0.7026,
+      "Recon": 0.3521,
+      "BruteForce": 0.3293
+    }
+  },
+  {
+    "model": "Decision Tree",
+    "accuracy": 0.8155,
+    "precision": 0.8422,
+    "recall": 0.8155,
+    "f1": 0.8101,
+    "f1_per_class": {
+      "Normal": 0.8592,
+      "DoS": 0.8077,
+      "Recon": 0.7522,
+      "BruteForce": 0.6647
+    }
+  },
+  {
+    "model": "Random Forest",
+    "accuracy": 0.7778,
+    "precision": 0.8282,
+    "recall": 0.7778,
+    "f1": 0.7536,
+    "f1_per_class": {
+      "Normal": 0.8038,
+      "DoS": 0.8542,
+      "Recon": 0.7062,
+      "BruteForce": 0.2432
+    }
+  },
+  {
+    "model": "Gradient Boosting",
+    "accuracy": 0.805,
+    "precision": 0.8209,
+    "recall": 0.805,
+    "f1": 0.783,
+    "f1_per_class": {
+      "Normal": 0.8308,
+      "DoS": 0.8795,
+      "Recon": 0.7717,
+      "BruteForce": 0.2573
+    }
+  }
+]
